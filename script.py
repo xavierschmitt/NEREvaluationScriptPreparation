@@ -17,7 +17,7 @@ def print_exp(tab, tag):
     if tag != "O" and tag != "I-PER" and tag != "I-LOC" and tag != "I-ORG":
         pass
 
-    print ' '.join([str(x) for x in tab]) + ' ' + tag
+    print(' '.join([str(x) for x in tab]) + ' ' + tag)
 
 
 def _find_shift(gold_tab, result_tab, id_gold, id_result):
